@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O Jogo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo">O JOGO</h1>
+    <div class="jogo-box">
+      <div class="lado-esquerdo">
+        <img src="https://cdn-icons-png.flaticon.com/512/921/921347.png" alt="Ícone do usuário" class="user-icon">
+        <label for="nick">Nick:</label>
+        <input type="text" id="nick">
+        <label for="intervalo">Intervalo:</label>
+        <select id="intervalo">
+          <option value="10">Opção 1: 1 a 10</option>
+          <option value="100">Opção 2: 1 a 100</option>
+          <option value="200">Opção 3: 1 a 200</option>
+        </select>
+        <button class="btn-azul" onclick="comecarJogo()">COMEÇAR</button>
+      </div>
+      <div class="lado-direito">
+        <p id="saudacao"><strong>Olá Fulano</strong>, vamos jogar!<br>
+        De acordo com a opção de intervalo que<br> você escolheu, descubra o número.</p>
+        <label for="palpite"><strong>Digite um número:</strong></label>
+        <input type="number" id="palpite">
+        <button class="btn-laranja" onclick="jogar()">JOGAR</button>
+        <p id="mensagem" class="mensagem"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
