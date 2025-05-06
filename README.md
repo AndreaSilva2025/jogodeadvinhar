@@ -5,7 +5,7 @@ Nesse projeto, trabalhei com HTML, CSS e JavaScript puro. O jogador entra com um
 Além da lógica do jogo, me preocupei bastante com o visual: deixei o layout responsivo, usei cores mais vivas e fontes mais limpas, e ainda coloquei um ícone de jogador para deixar mais amigável. Foi uma forma leve de praticar conceitos como manipulação do DOM, eventos, responsividade e usabilidade.
 
 O projeto está disponível no GitHub e aceito sugestões de melhorias!
-💻 [Insira o link do seu repositório aqui]
+💻 [(https://andreasilva2025.github.io/jogodeadvinhar/)]
 
 Quem quiser dar uma olhada ou jogar um pouquinho, fique à vontade 😄
 
